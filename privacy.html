@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacybeleid - Feestbeest Snelle Bezorging Amsterdam</title>
+  <meta name="description" content="Privacybeleid van Feestbeest. Lees hoe wij omgaan met uw persoonsgegevens en privacy bij onze bezorgservice in Amsterdam." />
+  <meta name="robots" content="noindex, follow" />
+  <link rel="canonical" href="https://www.feestbeest.nl/privacy.html" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Ga direct naar inhoud</a>
+
+  <div class="preloader" id="preloader"><div class="preloader__spinner"></div></div>
+
+  <header>
+    <div class="container topbar">
+      <div class="brand">Feest<span>beest</span></div>
+      <button class="menu-toggle" id="menuBtn" aria-label="Menu" aria-expanded="false" aria-controls="navMenu">
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+    </div>
+  </header>
+
+  <div class="nav-overlay" id="navOverlay"></div>
+  <nav class="nav-menu" id="navMenu" aria-label="Hoofdnavigatie">
+    <a href="index.html">Home</a>
+    <a href="over.html">Over Ons</a>
+    <a href="services.html">Diensten</a>
+    <a href="contact.html">Contact</a>
+    <a href="bestellen.html">Bestellen</a>
+  </nav>
+
+  <main id="main-content">
+    <section class="hero container content-fade">
+      <h1>Privacybeleid Feestbeest</h1>
+      <p>Laatst bijgewerkt: <span id="current-date"></span></p>
+    </section>
+
+    <section class="container content-fade">
+      <div class="card">
+        <h2>1. Algemeen</h2>
+        <p>Feestbeest hecht veel waarde aan de bescherming van uw persoonsgegevens. In dit privacybeleid leggen wij uit welke gegevens wij verzamelen en hoe wij deze gebruiken.</p>
+
+        <h2>2. Verzameling van gegevens</h2>
+        <p>Wij verzamelen de volgende gegevens:</p>
+        <ul>
+          <li>Telefoonnummer (indien door u verstrekt)</li>
+          <li>Locatiegegevens (voor bezorging)</li>
+          <li>Communicatie via telefoon of WhatsApp</li>
+        </ul>
+
+        <h2>3. Doel van gegevensverwerking</h2>
+        <p>Uw gegevens worden uitsluitend gebruikt voor:</p>
+        <ul>
+          <li>Het verwerken en bezorgen van bestellingen</li>
+          <li>Communicatie over uw bestelling</li>
+          <li>Serviceverbetering</li>
+        </ul>
+
+        <h2>4. Bewaartermijn</h2>
+        <p>Wij bewaren uw gegevens niet langer dan noodzakelijk voor de uitvoering van onze diensten en om te voldoen aan wettelijke verplichtingen.</p>
+
+        <h2>5. Beveiliging</h2>
+        <p>Wij nemen passende beveiligingsmaatregelen om misbruik van en toegang tot uw persoonsgegevens te voorkomen.</p>
+
+        <h2>6. Uw rechten</h2>
+        <p>U heeft het recht om:</p>
+        <ul>
+          <li>Inzage te vragen in uw persoonsgegevens</li>
+          <li>Uw gegevens te laten corrigeren of verwijderen</li>
+          <li>Bezwaar te maken tegen verwerking</li>
+        </ul>
+
+        <h2>7. Contact</h2>
+        <p>Voor vragen over ons privacybeleid kunt u contact met Feestbeest opnemen:</p>
+        <div class="actions" style="justify-content: flex-start; margin-top: 20px;">
+          <a class="btn btn--call" href="tel:+31616467173">
+            <i class="fa-solid fa-phone" aria-hidden="true"></i> Bel Feestbeest
+          </a>
+          <a class="btn btn--wa" href="https://wa.me/31616467173" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container foot">
+      <p>© <span id="year"></span> Feestbeest. Alle rechten voorbehouden.</p>
+      <div class="foot-links">
+        <a href="privacy.html">Privacybeleid</a>
+        <a href="algemene-voorwaarden.html">Algemene Voorwaarden</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Toon huidige datum
+    document.getElementById('current-date').textContent = new Date().toLocaleDateString('nl-NL');
+  </script>
+</body>
+</html>
